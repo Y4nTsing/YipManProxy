@@ -18,7 +18,7 @@ yipmanproxy -m client -r x.x.x.x:port2 -u foo -pwd bar -key xxxx(max len 32)
 -m client：客户端模式
 -r x.x.x.x:port2：指服务端开放的ccp地址
 -u foo：socks5用户名
--pwd：socks5密码
+-pwd bar：socks5密码
 -key xxxx：指用于认证客户服务端接入的密码，最长32位，需要和服务端保持一致
 ```
 之后可以通过访问服务端的port1使用代理，如：
